@@ -87,3 +87,30 @@ button{
     margin-left: 40px;
 }
 
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+
+    .wholeForm {
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 90%;
+    }
+
+    .wholeForm {
+        width: 100%;
+    }
+
+    .main, nav {
+        padding: 8px;
+    }
+}
+
