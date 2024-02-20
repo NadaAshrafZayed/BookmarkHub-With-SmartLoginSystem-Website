@@ -40,10 +40,23 @@ nav{
     /* color: gray; */
 }
 
-#userName{
+#userName {
     color: gray;
-    /* color: #ffc107; */
     font-size: 70px;
+    animation-name: bounceIn; /* Name of the animation */
+    animation-duration: 0.75s; /* Duration of the animation */
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: translateY(-100px); /* Start position */
+    }
+    70% {
+        transform: translateY(60px); /* Bounce height */
+    }
+    100% {
+        transform: translateY(0); /* End position */
+    }
 }
 
 
