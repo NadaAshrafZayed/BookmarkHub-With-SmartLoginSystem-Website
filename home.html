@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <nav class="navbar navbar-expand-lg position-fixed container-fluid d-flex justify-content-around z-3">
+            <div>
+                <a href="#" class="ainHome text-white text-decoration-none">Bookmark Hub</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a onclick="logOut()" class="nav-link btn btn-outline-warning text-secondary"
+                                href="index.html">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="text-center vh-100 p-5 d-flex align-items-center justify-content-center">
+            <div class="card w-75 p-3">
+                <h1 id="userName"></h1>
+                <p id="quoteIntro" class="quoteIntroClass"></p>
+            </div>
+        </div>
+
+        <div> <!--Bookmarkerrrrrr-->
+
+            <h1 class="text-center display-1">Bookmarker</h1>
+            <hr>
+            <div class="FormDiv d-flex align-items-center justify-content-center">
+
+                <div class="wholeForm m-5 p-5 text-center">
+                    <div class="fw-bold title text-warning">
+                        <p>Bookmark your favorite sites</p>
+                    </div>
+                    <div>
+                        <label for="name" class="m-4 fw-bold text-warning">Site Name</label>
+                        <input type="text" class="form-control text-center m-2 p-2" id="name"
+                            aria-describedby="emailHelp" placeholder="Bookmark Name">
+                    </div>
+                    <div>
+                        <label for="url" class="m-4 fw-bold text-warning">Site URL</label>
+                        <input type="text" class="form-control text-center m-2 p-2" id="url"
+                            aria-describedby="emailHelp" placeholder="Website URL">
+                    </div>
+                    <button class="btn btn-primary m-4" onclick="submit();">Submit </button>
+                </div>
+
+            </div>
+
+            <table class="table m-5">
+
+                <tbody id="table_body">
+
+                </tbody>
+            </table>
+
+            <hr>
+            <div class="copyright">
+                <p>© 2019 Bookmarker Inc.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/javascript.js"></script>
+
+
+</body>
+
+</html>
