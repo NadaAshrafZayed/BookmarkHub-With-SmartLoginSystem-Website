@@ -1,0 +1,76 @@
+.main , nav{
+    background-color: #24353f;
+}
+
+h1{
+    color: #17a2b8;;
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
+
+input , textarea {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+input::placeholder{
+    color: #17a2b8 !important;
+}
+
+.card{
+    width: 60%;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.ainHome{
+    font-size: 30px;
+}
+
+.quoteIntroClass{
+    font-size: 16px;
+    line-height: 1.5; 
+    color: #ffc107; 
+    /* color: gray; */
+}
+
+#userName{
+    color: gray;
+    /* color: #ffc107; */
+    font-size: 70px;
+}
+
+
+/* For Bookmarkerrrr */
+h1{
+    font-weight: bold;
+    color: gray;
+    margin: 60px;
+}
+.wholeForm{
+    background-color: rgb(128, 128, 128 ,0.2);
+    width: 70%;
+}
+.title{
+    font-size: 28px;
+    font-weight: bold;
+}
+button{
+    color: white;
+    background-color: #2C74B3;
+    border: 2px solid #2C74B3;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 14px;
+}
+.copyright{
+    color: gray;
+    margin-left: 40px;
+}
+
